@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties
  * @author Oleg Bryzhevatykh
  */
 @ConfigurationProperties(prefix = "storage")
-class StorageProperties {
+open class StorageProperties {
     /**
      * Current file storage type.
      */
