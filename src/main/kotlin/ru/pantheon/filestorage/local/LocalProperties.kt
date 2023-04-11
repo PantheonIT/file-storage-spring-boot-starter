@@ -10,6 +10,6 @@ import org.springframework.boot.context.properties.ConstructorBinding
  */
 @ConstructorBinding
 @ConfigurationProperties("storage.local")
-class LocalProperties(
+open class LocalProperties(
     var path: String = "resources"
 )

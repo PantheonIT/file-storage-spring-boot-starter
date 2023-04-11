@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.ConstructorBinding
  */
 @ConstructorBinding
 @ConfigurationProperties(prefix = "storage.minio")
-class MinioProperties {
+open class MinioProperties {
 
     var url: String = "http://localhost:9000"
     var bucket: String = "minervakms"
